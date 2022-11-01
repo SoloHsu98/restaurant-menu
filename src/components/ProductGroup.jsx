@@ -8,8 +8,8 @@ const ProductGroup = () => {
         <h2>Fresh Juice</h2>
         <h2>Price</h2>
       </div>
-      <ProductRow />
-      <ProductRow />
+      <ProductRow name="Latte" price="4000" />
+      <ProductRow name="Mocha" price="4500" />
     </div>
   );
 };
